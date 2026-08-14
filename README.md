@@ -19,3 +19,9 @@ API de gerenciamento de pedidos da TechNova.
 ## Equipe
 
 - Platform Engineering Teameam
+
+
+## Como Executar
+
+npm install
+npm start
