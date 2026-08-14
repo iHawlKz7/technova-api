@@ -20,6 +20,15 @@ app.get('/health', (req, res) => {
   });
 });
 
+app.get('/info', (req, res) => {
+  res.json({
+    empresa: 'TechNova',
+    projeto: 'API de Gerenciamento de Pedidos',
+    equipe: 'Platform Engineering',
+    ambiente: process.env.NODE_ENV || 'development'
+  });
+});
+
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
