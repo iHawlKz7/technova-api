@@ -6,22 +6,21 @@ API de gerenciamento de pedidos da TechNova.
 
 🚧 Em desenvolvimento
 
-## Equipe
+## Como executar
 
-- Platform Engineering T# TechNova API
+### Com Docker Compose
 
-API de gerenciamento de pedidos da TechNova.
+```bash
+docker compose up -d --build
+```
 
-## Status
+### Localmente
 
-🚧 Em desenvolvimento
-
-## Equipe
-
-- Platform Engineering Teameam
-
-
-## Como Executar
-
+```bash
 npm install
 npm start
+```
+
+## Equipe
+
+- Platform Engineering Team
